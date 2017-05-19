@@ -1,0 +1,125 @@
+/* Empty. Add your own CSS if you like */
+.bgimage {
+    text-align:right;
+    color:white;
+    background-size: cover;
+    height: 150px;
+    width: 235px;
+    background-position: center center;
+}
+
+ul[rn-carousel] {
+    width: 250px;
+    height:150px;
+}
+
+.carousel-demo {
+    margin-top:20px;
+    text-align: center;
+}
+
+.carousel-demo ul[rn-carousel-transition="hexagon"] {
+  margin: auto;
+}
+
+
+#cards .item-note {
+  margin-top: -30px!important;
+}
+
+#cards .transactions-scroll {
+  height: calc(100% - 259px);
+}
+
+#cards .balance {
+  font: 1.5em Courier New;
+  font-family: monospace;
+  margin-top: 25px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#limit .morph-carousel__separator {
+  border-left: 1px solid #387ef5;
+  border-right: 1px solid #387ef5;
+}
+
+#limit .centered {
+  margin: auto;
+  text-align: center;
+}
+
+#limit .limit-info {
+  font-size: 30px;
+  display: block;
+}
+
+#limit .carousel-limit {
+  height: 75px;
+}
+
+.wallet-button {
+  display: block;
+  width: 200px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+#limit .margin-limit {
+  margin-top: 34%;
+}
+
+#login .item-floating-label .input-label {
+  text-align: center;
+  width: 100%;
+}
+
+#login .login-window {
+  width: 200px!important;
+  margin: auto;
+}
+
+#login .item {
+  border: none!important;
+}
+
+#login input {
+  height: 20px;
+  border-bottom: 1px double #ddd;
+  text-align:center;
+  padding: 0px;
+  color: grey;
+}
+
+#login input:focus {
+  border-bottom: 1px solid #387ef5;
+  color: black;
+}
+
+#login .item-input {
+  padding: 6px 0 5px 0px;
+}
+
+#login .login-error {
+  text-align: center;
+  margin-top: 10px;
+  white-space: pre-line;
+}
+
+#login .logo {
+  font: 1.7em SANS-SERIF;
+  font-weight: bolder;
+  font-family: sans-serif;
+  margin-top: 25px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.message-date {
+  text-align: right;
+  color: grey;
+}

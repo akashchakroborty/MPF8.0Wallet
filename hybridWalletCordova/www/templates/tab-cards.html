@@ -1,0 +1,29 @@
+<ion-view id="cards" view-title="Cards">
+  <ion-content scroll="false">
+
+<div class="carousel-demo">
+    <ul rn-carousel rn-carousel-buffered rn-carousel-index="cardIndex.id" class="carousel3" rn-carousel-transition="hexagon">
+      <li ng-repeat="card in cardsImages">
+        <div class="bgimage" ng-style="{'background-image': 'url(' + card.img + ')'}"></div>
+      </li>
+    </ul>
+</div>
+
+<div class="stable-bg balance" ng-show="currentTransactions.balance != undefined">
+  {{currentTransactions.balance}} $
+</div>
+
+<ion-scroll direction="y" class="transactions-scroll">
+  <a class="item" href="#" ng-repeat="transaction in currentTransactions.transactions">
+    {{transaction.place}} #{{transaction.transactionId}}
+    <p>{{transaction.date | date: 'medium'}}</p>
+    <span class="item-note">
+      {{transaction.amount}} $
+    </span>
+  </a>
+</ion-scroll>
+
+
+    <canvas id="cardCanvas" width="235" height="150" hidden="true"></canvas>
+  </ion-content>
+</ion-view>

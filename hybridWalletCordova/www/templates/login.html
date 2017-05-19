@@ -1,0 +1,33 @@
+<ion-modal-view id="login">
+  <ion-header-bar>
+    <h1 class="title">Login</h1>
+  </ion-header-bar>
+  <ion-content>
+
+    <div class="logo">
+      <div class="positive inline">Hybrid &nbsp;</div><div class="dark inline">Wallet</div>
+    </div>
+
+    <div class="login-window">
+    <div class="list padding-bottom">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Username</span>
+        <input type="text" placeholder="Username" ng-model="user.name">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Password</span>
+        <input type="password" placeholder="Password" ng-model="user.password">
+      </label>
+    </div>
+    <div class="full-width padding-top">
+    <button class="button button-outline button-positive centered wallet-button" ng-click="doLogin()">
+      Sign In
+    </button>
+  </div>
+
+    <div class="assertive login-error" ng-show="displayError">
+      {{errorText}}
+    </div>
+</div>
+  </ion-content>
+</ion-modal-view>

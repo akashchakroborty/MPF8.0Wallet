@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "560522988506",
+    "firebase_url": "https://mfp-projects.firebaseio.com",
+    "project_id": "mfp-projects",
+    "storage_bucket": "mfp-projects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560522988506:android:86d650e690dafbdf",
+        "android_client_info": {
+          "package_name": "com.ibm.hybridWalletCordova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560522988506-9itffbsrli136ij4l1fhtl4pfrkfsajc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwgh0khrIUoJb-jO8B4e-w4CSfhrxxonM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

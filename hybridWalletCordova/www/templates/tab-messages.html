@@ -1,0 +1,14 @@
+<ion-view view-title="Messages">
+  <ion-content>
+
+    <div ng-repeat="message in messages">
+
+      <div class="card">
+        <div class="item item-text-wrap">
+          {{message.json.text}}
+        </div>
+      </div>
+      <div class="message-date padding-right">{{message.json.date}}</div>
+    </div>
+  </ion-content>
+</ion-view>

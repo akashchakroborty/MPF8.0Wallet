@@ -1,0 +1,19 @@
+<ion-view id="limit" view-title="Change limit">
+  <ion-content scroll="false">
+
+    <div class="centered padding margin-limit">
+      Change limit for single card operation
+    </div>
+
+    <div class="padding-top carousel-limit">
+      <morph-carousel data-items="limit" on-selected="selectedLimit" identifier="modal-carousel" show-value="number"></morph-carousel>
+
+    </div>
+
+    <div class="full-width">
+      <button class="button button-outline button-positive centered wallet-button" ng-click="setLimit(selectedLimit)">
+  Change
+</button>
+    </div>
+  </ion-content>
+</ion-view>

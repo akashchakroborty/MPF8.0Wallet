@@ -1,0 +1,60 @@
+{
+        "id": "fSSWUe7d",
+        "balance": "14,561.43",
+        "transactions": [
+          {
+            "transactionId": 12291,
+            "amount": 245,
+            "place": "Winters",
+            "date": "1438885354105"
+          },
+          {
+            "transactionId": 17434,
+            "amount": 86,
+            "place": "Glover",
+            "date": "1438025633301"
+          },
+          {
+            "transactionId": 18573,
+            "amount": 132,
+            "place": "Garrison",
+            "date": "1438405801606"
+          },
+          {
+            "transactionId": 11486,
+            "amount": 153,
+            "place": "Barton",
+            "date": "1438352602700"
+          },
+          {
+            "transactionId": 14894,
+            "amount": 212,
+            "place": "Swanson",
+            "date": "1438426668806"
+          },
+          {
+            "transactionId": 26770,
+            "amount": 141,
+            "place": "Kelly",
+            "date": "1438817660207"
+          },
+          {
+            "transactionId": 12006,
+            "amount": 122,
+            "place": "Katz",
+            "date": "1438264525800"
+          },
+          {
+            "transactionId": 11243,
+            "amount": 64,
+            "place": "Sellers",
+            "date": "1438442847401"
+          },
+          {
+            "transactionId": 22219,
+            "amount": 164,
+            "place": "Berger",
+            "date": "1438351128702"
+          }
+        ]
+      }

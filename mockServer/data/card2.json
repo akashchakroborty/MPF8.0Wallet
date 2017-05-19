@@ -1,0 +1,42 @@
+{
+        "id": "fggd4GY0",
+        "balance": "11,302.97",
+        "transactions": [
+          {
+            "transactionId": 19033,
+            "amount": 98,
+            "place": "Barton",
+            "date": "1438570507400"
+          },
+          {
+            "transactionId": 11096,
+            "amount": 152,
+            "place": "Dyer",
+            "date": "1438724861008"
+          },
+          {
+            "transactionId": 23523,
+            "amount": 24,
+            "place": "Haynes",
+            "date": "1438664127100"
+          },
+          {
+            "transactionId": 6262,
+            "amount": 75,
+            "place": "Beatty",
+            "date": "1438256261007"
+          },
+          {
+            "transactionId": 18470,
+            "amount": 229,
+            "place": "Horne",
+            "date": "1438867216606"
+          },
+          {
+            "transactionId": 11637,
+            "amount": 188,
+            "place": "McKee",
+            "date": "1438435271302"
+          }
+        ]
+      }
